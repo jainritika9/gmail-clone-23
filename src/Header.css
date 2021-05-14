@@ -1,0 +1,46 @@
+.app-head{
+    display: flex;
+    align-items: center;
+    padding-left:20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+}
+.app-headLeft{
+    display: flex;
+    align-items: center;
+}
+.app-headLeft>img{
+    object-fit: contain;
+    height:80px;
+    margin-left: 3px;
+
+}
+.app-headmid{
+    display: flex;
+    flex:0.7;
+    align-items: center;
+    background-color:whitesmoke;
+    padding:5px;
+    border-radius: 10px;
+    margin-left:10px;
+}
+.app-headmid>input{
+    border:none;
+    width: 100%;
+    padding: 10px;
+    outline-width: 0;
+    background-color:transparent;
+    font-size: medium;
+}
+.app-headmid>.MuiSvgIcon-root{
+    color:gray;
+}
+.app-headright{
+    display: flex;
+    margin-left:5px;
+}
+.app-headright>.MuiSvgIcon-root{
+    color:gray;
+    font-size: medium;
+}

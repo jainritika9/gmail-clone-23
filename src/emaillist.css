@@ -1,0 +1,23 @@
+.email-set{
+    display: flex;
+    position: sticky;
+    top:0;
+    border-bottom:1px solid whitesmoke ;
+    background-color: white;
+    justify-content: space-between;
+    z-index: 999;
+    padding-right: 10px;
+}
+
+.email-body{
+    flex:1;
+    overflow: auto;
+}
+.email-sec{
+    position: sticky;
+    top:0;
+    display: flex;
+    background-color: white;
+    border-bottom: 1px solid whitesmoke;
+    z-index: 999;
+}

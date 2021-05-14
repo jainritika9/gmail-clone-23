@@ -1,0 +1,67 @@
+.sendmail{
+    position: absolute;
+    bottom:0px;
+    right:50px;
+    width:40%;
+    height:40%;
+    max-width:500px;
+    box-shadow: 0px 5px 7px 5px rgba(0,0,0,0.24);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.sendmail-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    padding:13px;
+    font-size: 12px;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+}
+.send>.MuiSvgIcon-root:hover{
+    opacity: 0.5;
+    background-color:grey ;
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    background-color: white;
+}
+form>input{
+    height: 30px;
+    border:0;
+    border-bottom: 1px solid whitesmoke;
+    padding:10px;
+    outline: none;
+}
+.txt{
+    flex:1;
+}
+.toolbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.toolleft{
+    display: flex;
+}
+.toolleft>button{
+    background-color: #3079ed;
+    color:white;
+    border:0;
+    padding:10px;
+    border-color: white;
+    border-radius: 5px;
+}
+.MuiSvgIcon-root{
+    color:grey;
+    padding:5px;
+}
+.MuiSvgIcon-root:hover{
+    opacity: 0.5;
+}

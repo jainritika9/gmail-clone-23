@@ -1,0 +1,54 @@
+.email-row{
+    display: flex;
+    align-items: center;
+    height:50px;
+    border-bottom: 1px solid whitesmoke;
+    cursor: pointer;
+    z-index:999;
+}
+.email-rowop>.MuiSvgIcon-root{
+    color:gray;
+    margin-right: 10px;
+}
+.email-row:hover{
+    border-top: 1px solid whitesmoke;
+    box-shadow: 0px 4px 4px -2px rgba(0,0,0,0.24);
+}
+.email-row-active{
+    background-color: rgb(235, 241, 241);
+    border-top:1px solid  rgb(221, 221, 221);
+    border-bottom:1px solid  rgb(221, 221, 221);
+}
+.email-row-active>.email-message>h4,.email-row-active>.email-rowtitle>h4{
+    font-weight: 400;
+}
+.email-rowop{
+    display: flex;
+}
+.email-message{
+    display: flex;
+    flex:0.8;
+    align-items: center;
+    font-size: 15px;
+}
+.email-message>h4{
+    width:500px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.email-rowtitle{
+    font-size: 16px;
+    flex:0.2;
+}
+.email-time{
+    font-size: 13px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+.email-desp{
+    font-weight: 400;
+    color:gray;
+}

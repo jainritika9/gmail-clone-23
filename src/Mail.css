@@ -1,0 +1,113 @@
+.mail{
+    flex:1;
+}
+.mail-head{
+    display: flex;
+    border-bottom: 1px solid whitesmoke;
+    justify-content: space-between;
+}
+.headleft{
+    display: flex;
+}
+#one,#two{
+    color:whitesmoke;
+    margin-top:5px;
+    font-size: 24px !important;
+    font-weight: 400;
+}
+
+.mail-title{
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+}
+.titleleft{
+    font-size: 25px;
+    font-weight: 400;
+    margin:6px;
+    margin-left:40px;
+}
+.mail-av{
+    display: flex;
+    justify-content: space-between;
+}
+.avright{
+    display: flex;
+}
+.avleft{
+    display: flex;
+    margin-left:5px;
+}
+#av{
+    margin-top:5px;
+}
+#tit{
+    margin-left:10px;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: bold;
+}
+.low{
+    color:gray;
+    font-size: 10px;
+}
+.avright>p{
+    margin:16px;
+}
+.mail-body{
+    background-color:whitesmoke;
+    margin:5px;
+    margin-left:80px;
+    min-height:90vh ;
+    align-items: center;
+    justify-content: center;
+}
+.mail-msg{
+    position: absolute;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    min-height: 50vh;
+    width:600px;
+    padding:20px;
+    font-size: 30px;
+    font-weight: 600;
+    box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.24);
+}
+#button{
+    background-color: rgb(0, 47, 255);
+    border:0;
+    font-size:15px ;
+    padding:20px;
+    color:white;
+    border-radius: 5px;
+    margin:40px;
+    margin-left: 200px;
+}
+#button:hover{
+    opacity: 0.5;
+}
+#l{
+    margin-top:25px;
+    font-size: 20px;
+    font-weight: 400;
+}
+#cor{
+    align-items: center;
+    height:40px;
+    margin-left: 400px;
+    margin-top:30px;
+}
+.mail-button>Button{
+    border:1px solid gray;
+    color: gray;
+    margin-left: 10px;
+}
+.mail-button{
+    display: flex;
+    margin:20px;
+    margin-bottom: 100px;
+}
