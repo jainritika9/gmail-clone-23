@@ -25,9 +25,9 @@ function Sidebar() {
     const user =useSelector(selectUser);
     return (
         <div className='sidebar'>
-            <Button startIcon={<img src={plus} alt='' id='img'/>} className='compose' onClick={()=>{dispatch(openSendMessage())}}>   Compose</Button>
+            <Button startIcon={<img src={plus} alt='' className='image'/>} className='compose' onClick={()=>{dispatch(openSendMessage())}}>   Compose</Button>
             <div className='menu'>
-            <SidebarOption Icon={InboxIcon} title='Inbox' number='55' selected={true}/>
+            <SidebarOption Icon={InboxIcon} title='Inbox' number='355' selected={true}/>
             <SidebarOption Icon={StarIcon} title='Starred' number='55'selected={false} />
             <SidebarOption Icon={WatchLaterIcon} title='Snoozed' number='55' selected={false}/>
             <SidebarOption Icon={SendIcon} title='Sent' number='55 'selected={false}/>

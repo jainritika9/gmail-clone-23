@@ -21,9 +21,12 @@
     flex:0.7;
     align-items: center;
     background-color:whitesmoke;
-    padding:5px;
+    padding:2px;
     border-radius: 10px;
     margin-left:10px;
+}
+#ava{
+    margin-top:7px;
 }
 .app-headmid>input{
     border:none;

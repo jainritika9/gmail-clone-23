@@ -36,7 +36,7 @@ function Header() {
             <IconButton><HelpOutlineIcon/></IconButton>
             <IconButton><SettingsOutlinedIcon/></IconButton>
             <IconButton><AppsRoundedIcon/></IconButton>
-            <Avatar src={user?.photoUrl} onClick={signOut}/>
+            <Avatar src={user?.photoUrl} id='ava' onClick={signOut}/>
           </div>
         </div>
     )

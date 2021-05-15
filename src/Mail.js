@@ -22,6 +22,7 @@ import ReplyIcon from '@material-ui/icons/Reply';
 import ForwardIcon from '@material-ui/icons/Forward';
 function Mail() {
     const history =useHistory();
+    
     return (
         <div className='mail'>
             <div className='mail-head'>
